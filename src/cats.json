@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Mr. Whiskerson",
+    "age": 3,
+    "email": "whiskerson@catmail.com",
+    "image": "https://cataas.com/cat/says/Hello",
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "Sir Pounce-a-lot",
+    "age": 3,
+    "email": "pouncealot@catmail.com",
+    "image": "https://cataas.com/cat/says/Meow",
+    "available": false
+  },
+  {
+    "id": 3,
+    "name": "Meowzilla",
+    "age": 2,
+    "email": "meowzilla@catmail.com",
+    "image": "https://cataas.com/cat/says/Roar",
+    "available": true
+  },
+  {
+    "id": 1,
+    "name": "Mr. Whiskerson",
+    "age": 3,
+    "email": "whiskerson@catmail.com",
+    "image": "https://cataas.com/cat/says/Hello",
+    "available": true
+  },
+  {
+    "id": 1,
+    "name": "Mr. Whiskerson",
+    "age": 3,
+    "email": "whiskerson@catmail.com",
+    "image": "https://cataas.com/cat/says/Hello",
+    "available": true
+  },
+  {
+    "id": 1,
+    "name": "Mr. Whiskerson",
+    "age": 3,
+    "email": "whiskerson@catmail.com",
+    "image": "https://cataas.com/cat/says/Hello",
+    "available": true
+  }
+]
