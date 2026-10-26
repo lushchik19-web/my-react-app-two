@@ -43,31 +43,48 @@ import "./App.css";
 //     // </div>
 //   );
 // }
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+// import Header from "./components/Header/Header";
+// import Footer from "./components/Footer/Footer";
 import CatInfo from "./components/CatInfo/CatInfo";
 
-import CATS from "./cats.json";
+// import CATS from "./cats.json";
 
 function App() {
   return (
     <>
-      <Header />
+      <h1>State</h1>
 
-      <main>
-        <h1>Cats store</h1>
-
-        {CATS.map((cat) => (
-          <CatInfo key={cat.id} cat={cat} />
-        ))}
-      </main>
-
-      <Footer />
+      {/* <CatInfo name={"Whiskers"} age={5} isAvailable={true} /> */}
+      {/* Синтаксис коротких форм */}
+      <CatInfo
+        name="Whiskers"
+        email="whiskers@cat.com"
+        age={5}
+        isAvailable={true}
+      />
     </>
   );
-
-  // return CATS.map((cat) => <CatInfo />);
 }
+
+// function App() {
+//   return (
+//     <>
+//       <Header />
+
+//       <main>
+//         <h1>Cats store</h1>
+
+//         {CATS.map((cat) => (
+//           <CatInfo key={cat.id} cat={cat} />
+//         ))}
+//       </main>
+
+//       <Footer />
+//     </>
+//   );
+
+//   // return CATS.map((cat) => <CatInfo />);
+// }
 
 //  <CatInfo
 //           key={cat.id}
